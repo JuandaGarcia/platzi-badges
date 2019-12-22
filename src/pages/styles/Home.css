@@ -1,24 +1,51 @@
 .Home {
-  width: 100%;
-  min-height: calc(100vh - 60px);
-  background: url('../../images/stars.svg'), #1B1B25;
-  background-repeat: repeat;
+    width: 100%;
+    min-height: calc(100vh - 82px);
+    background: url("../../images/stars.svg"), #1b1b25;
+    background-repeat: repeat;
 
-  color: #ffffff;
+    color: #ffffff;
 
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .Home__col {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home_col {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.center h1 {
+    margin: 40px;
+}
+
+.logo {
+    width: 75%;
+}
+
+.mayus {
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
-  .Home__col {
-    align-items: flex-start;
-  }
+    .Home__col {
+        align-items: flex-start;
+    }
 }
